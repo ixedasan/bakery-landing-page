@@ -1,0 +1,38 @@
+# Dependencies
+node_modules
+bower_components
+
+# Build output
+dist
+build
+coverage
+.next
+out
+public
+
+# Cache and logs
+.cache
+*.log
+
+# Environment and config
+.env
+.env.*
+.env-*
+
+# Package files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Other common ignore patterns
+*.min.js
+*.bundle.js
+*.map
+
+# Version control
+.git
+.svn
